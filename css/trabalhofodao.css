@@ -1,0 +1,152 @@
+h1,
+h2,
+h3
+{
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-family: 'Cinzel', Courier, monospace;
+
+}
+
+p {
+    color: white;
+    font-family: 'Lora', Courier, monospace;
+}
+a {
+    color: Orange;
+    font-family: 'Cinzel', serif;
+}
+
+a:hover {
+    color: OrangeRed;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+header {
+    h1 {
+        font-family: 'Cinzel', serif;
+        font-weight: 150;
+        font-size: 220%;
+    }
+}
+
+footer {
+  background-color: #231a0d;
+  border-top: 2px solid #5a3e1b;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+body {
+    background: #1a1208;
+    min-height: 100vh;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid gold;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: #120d06;
+  border-bottom: 1px solid #5a3e1b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 12px 0;
+  width: 100%;
+}
+
+nav ul li {
+  font-family: 'Cinzel', serif;
+}
+
+section {
+  padding: 48px 24px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.timeline-item {
+  border-left: 3px solid gold;
+  padding-left: 20px;
+}
+
+.timeline-item h3 {
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-size: 110%;
+  margin-bottom: 8px;
+}
+.galeria-imperadores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  list-style: none;
+  padding: 0;
+  margin: 32px auto;
+  width: 100%;
+}
+
+.galeria-imperadores li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.galeria-imperadores img {
+  border-radius: 8px;
+  border: 2px solid gold;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.galeria-imperadores p {
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 95%;
+}
+.volta-topo {
+  display: inline-block;
+  margin-top: 32px;
+  color: gold;
+  font-family: 'Cinzel', serif;
+  font-size: 90%;
+  text-decoration: none;
+}
+
+.volta-topo:hover {
+  color: GoldenRod;
+  font-weight: bold;
+  font-style: oblique;
+}
